@@ -1,0 +1,1072 @@
+{
+  "schema_version": "1.0",
+  "snapshot_date": "2026-07-18",
+  "locale": "ja-JP",
+  "scope": "Schiit Audioの現行ヘッドホン・イヤホン向けDAC、アンプ、DAC/アンプ。米国公式サイトの販売状態と価格を基準とし、Lyr+ Last Callを別枠で含む。",
+  "methodology": {
+    "principles": [
+      "価格、入出力、電力、電圧、保証などは公式製品ページを一次情報とした。",
+      "測定レビュー、専門誌、フォーラムの複数系統を照合し、主観的な音質表現は事実と分離した。",
+      "レビュー信頼度は好評価の強さではなく、世代一致、情報量、独立ソース数、長期使用情報の成熟度を表す。",
+      "音質差はシステム、音量整合、個体、期待バイアスに左右される。DAC間の可聴差は断定しない。"
+    ],
+    "score_definitions": {
+      "scale": "1（不向き）〜5（非常に向く）の編集評価。公式格付けではない。",
+      "iem": {
+        "1": "敏感な多BA型には避けたい",
+        "2": "ノイズまたは出力インピーダンス面で限定的",
+        "3": "低ゲインや出力選択で実用",
+        "4": "低ノイズ・低インピーダンスで概ね安心",
+        "5": "負ゲイン等を含め微小音量を扱いやすい"
+      },
+      "planar": {
+        "1": "電力不足",
+        "3": "一般的な平面駆動型には実用",
+        "5": "大電流・高出力で余裕が大きい"
+      },
+      "high_z": {
+        "1": "高インピーダンス型に不向き",
+        "3": "実用",
+        "5": "電圧余裕またはOTL適性が高い"
+      },
+      "value": {
+        "1": "費用対効果を選びにくい",
+        "3": "用途が合えば妥当",
+        "5": "同価格帯で機能・性能が強い"
+      }
+    },
+    "confidence_levels": {
+      "High": "複数世代一致ソース、測定と長期傾向あり",
+      "Medium": "複数ソースだが新製品または見解差あり",
+      "Low": "発売直後で長期・独立レビューが少ない"
+    }
+  },
+  "japan_100v": {
+    "official_options": "公式の電圧選択は115Vまたは230Vで、日本100Vの定格保証は確認できない。",
+    "recommendation": "内部電源機は購入前にSchiitへ100V運用可否を確認する。定格性能を重視する場合は、容量に余裕のある適切な100→115V昇圧トランスを安全基準に従って用いる。これは本調査の保守的提案であり公式指定ではない。",
+    "regional_independent": [
+      "Vestri",
+      "Fulla E"
+    ],
+    "usb_power_limits": "Modi 5、Mimir、GunnrはUSB給電できるが、AC給電時よりライン出力または最大ヘッドホン出力が低下する。",
+    "official_url": "https://www.schiit.com/voltage-type"
+  },
+  "use_case_recommendations": [
+    {
+      "use_case": "CIEM-first",
+      "recommended": "Magni Unity / Vestri / Gunnr",
+      "price_usd": "$99–229",
+      "fit": "低出力インピーダンスと低ノイズを優先。Magniは-10dB、Gunnrはnegative gain、VestriはUSB完結。",
+      "caveat": "真空管機や高出力Class A機は高感度CIEMで残留ノイズと音量調整域を試聴確認する。"
+    },
+    {
+      "use_case": "planar/value",
+      "recommended": "Midgard / Magni Unity",
+      "price_usd": "$119–219",
+      "fit": "低〜中インピーダンス平面駆動型へ十分な電流余裕を、比較的低価格で得やすい。",
+      "caveat": "Midgardの4-pin XLRはHaloであり、真の差動バランス駆動ではない。"
+    },
+    {
+      "use_case": "true-balanced/high-output",
+      "recommended": "Jotunheim 3",
+      "price_usd": "$499（Mesh込み$649）",
+      "fit": "4-pin XLR/4.4mm真バランス、6W/32Ω、XLR/RCA入出力を一台で得られる。",
+      "caveat": "大出力やバランス接続が不要なら、より安価なアンプとの差は用途次第。"
+    },
+    {
+      "use_case": "high-Z/tube",
+      "recommended": "Valhalla 3 / Vali 3 / Lyr 5",
+      "price_usd": "$149–799",
+      "fit": "高インピーダンス動電型にはValhalla 3、低予算の球交換にはVali 3、球/SS切替と大出力にはLyr 5。",
+      "caveat": "Valhalla 3は高い出力インピーダンスのため、低インピーダンス多BA型や低能率平面駆動型には不向き。"
+    },
+    {
+      "use_case": "compact all-in-one",
+      "recommended": "Fulla E / Gunnr / Magni Unity + Mesh / Vestri",
+      "price_usd": "$99–229",
+      "fit": "USB中心の小型構成。マイクと光入力はFulla/Gunnr、最小USB構成はVestri、RCA拡張はMagni。",
+      "caveat": "入力、ゲイン、マイク、バランス出力、外部電源の必要性が製品ごとに異なる。"
+    },
+    {
+      "use_case": "DAC tiers",
+      "recommended": "Modi 5 → Mimir → Bifrost 2/64 → Gungnir 2 → Yggdrasil",
+      "price_usd": "$149–3,499",
+      "fit": "価格と入力、XLR、DSP/リモート、Multibit/Multiform、筐体規模に応じて段階的に選ぶ。",
+      "caveat": "高価格は可聴改善を保証しない。必要な入出力、機能、方式を優先して選定する。"
+    }
+  ],
+  "products": [
+    {
+      "id": "vestri",
+      "model": "Vestri",
+      "status": "Current",
+      "category": "DAC/amp",
+      "form_factor": "USB dongle/desktop",
+      "price_usd": {
+        "base": 99,
+        "configured": 99,
+        "notes": "標準構成"
+      },
+      "architecture": "Mesh ES9018 + Unison USB + OPA1656×2。4.4mmは真のバランス。",
+      "connectivity": {
+        "digital_inputs": [
+          "USB-C"
+        ],
+        "analog_inputs": [],
+        "headphone_outputs": [
+          "4.4mm balanced",
+          "3.5mm SE"
+        ],
+        "line_outputs": [],
+        "preamp_outputs": [],
+        "microphone": false
+      },
+      "power_output": "32Ω: 0.4W balanced / 0.2W SE; 50Ω: 0.32/0.15W; 300Ω: 0.12/0.04W",
+      "gain": "タッチ音量、Loudness、NOS、位相反転",
+      "output_impedance_ohm": "<0.5",
+      "snr_db": ">118",
+      "thd": "<0.0002%",
+      "power_voltage": "USB-Cバスパワー",
+      "warranty": "2年",
+      "scores": {
+        "iem": 5,
+        "planar": 3,
+        "high_z": 3,
+        "value": 5
+      },
+      "best_for": "CIEM、持ち運べるUSBデスクトップ、低予算",
+      "avoid_for": "アナログ・S/PDIF入力やマイクが必要な用途",
+      "review_consensus": "暖かく厚みがあり、高域は滑らか。Meshの広がりと99ドルの価値が好評。",
+      "review_dissent": "発売直後で長期情報が少なく、機能はUSB再生に限定。",
+      "confidence": "Low",
+      "official_urls": [
+        "https://www.schiit.com/products/vestri"
+      ],
+      "review_urls": [
+        "https://superbestaudiofriends.org/index.php?threads/schiit-vestri-usb-dongle-review-and-measurements.15637/",
+        "https://www.head-fi.org/threads/schiit-vestri-impressions-thread.980445/",
+        "https://audiophilestyle.com/ca/reviews/review-schiit-audio-vestri-portable-r1429/"
+      ]
+    },
+    {
+      "id": "magni-unity",
+      "model": "Magni Unity",
+      "status": "Current",
+      "category": "headphone amp / optional DAC",
+      "form_factor": "compact desktop",
+      "price_usd": {
+        "base": 119,
+        "configured": 199,
+        "notes": "factory Mesh +$80。後付けMagni Meshカードは$90。銀色+$10"
+      },
+      "architecture": "ディスクリート電流帰還、シングルエンド。現行公式はMeshカードのDACチップ型番を明記していない。",
+      "connectivity": {
+        "digital_inputs": [
+          "USB-C when Mesh installed"
+        ],
+        "analog_inputs": [
+          "RCA"
+        ],
+        "headphone_outputs": [
+          "6.3mm SE"
+        ],
+        "line_outputs": [],
+        "preamp_outputs": [
+          "RCA variable"
+        ],
+        "microphone": false
+      },
+      "power_output": "16Ω 3W; 32Ω 2.5W; 50Ω 1.5W; 300Ω 0.415W; 600Ω 0.22W",
+      "gain": "0.3x (-10dB) / 1x / 5x",
+      "output_impedance_ohm": "<0.1",
+      "snr_db": ">122 low / >112 high",
+      "thd": null,
+      "power_voltage": "14–16VAC外部ACアダプター",
+      "warranty": "3年",
+      "scores": {
+        "iem": 5,
+        "planar": 4,
+        "high_z": 4,
+        "value": 5
+      },
+      "best_for": "敏感なIEMから一般的な平面駆動・高インピーダンス型までの一台",
+      "avoid_for": "バランス入出力必須のシステム",
+      "review_consensus": "中立〜わずかに暖かく、低域のパンチと広い舞台、IEMでの静けさ、価格性能が好評。",
+      "review_dissent": "一部に高ゲイン時ノイズ報告。旧DACモジュールのレビューを現行Meshに流用できない。",
+      "confidence": "High",
+      "official_urls": [
+        "https://www.schiit.com/products/magni-unity",
+        "https://www.schiit.com/products/magni-unity-mesh-dac"
+      ],
+      "review_urls": [
+        "https://pmamagazine.org/review-schiit-magni-unity-and-hifiman-arya-stealth-high-end-sound-for-less/",
+        "https://superbestaudiofriends.org/index.php?threads/schiit-magni-unity-review-and-measurements.13965/",
+        "https://www.head-fi.org/threads/schiit-magni-unity-impressions-thread.970645/",
+        "https://www.audiosciencereview.com/forum/index.php?threads/schiit-magni-unity-dac-hp-amp-review.68919/"
+      ]
+    },
+    {
+      "id": "asgard-x",
+      "model": "Asgard X",
+      "status": "Current",
+      "category": "headphone amp / optional DAC",
+      "form_factor": "desktop",
+      "price_usd": {
+        "base": 399,
+        "configured": 549,
+        "notes": "Mesh +$150、銀色+$30"
+      },
+      "architecture": "ゼロフィードバックContinuity A。4.4mmはHalo Xで、真のバランスではない。MeshはES9028/Unison USB 384。",
+      "connectivity": {
+        "digital_inputs": [
+          "USB-C when Mesh installed"
+        ],
+        "analog_inputs": [
+          "RCA"
+        ],
+        "headphone_outputs": [
+          "6.3mm SE",
+          "4.4mm Halo X"
+        ],
+        "line_outputs": [],
+        "preamp_outputs": [
+          "RCA variable"
+        ],
+        "microphone": false
+      },
+      "power_output": "両出力: 16Ω 3.4W; 32Ω 2.8W; 50Ω 1.9W; 300Ω 0.38W; 600Ω 0.2W",
+      "gain": "1x / 4.5x",
+      "output_impedance_ohm": "0.7 normal / 3.5 Halo",
+      "snr_db": ">110 low / >108 high",
+      "thd": null,
+      "power_voltage": "内部115V/230V固定",
+      "warranty": "5年",
+      "scores": {
+        "iem": 3,
+        "planar": 4,
+        "high_z": 4,
+        "value": 4
+      },
+      "best_for": "有機的な質感、クラスA系の設計、一般的ヘッドホン",
+      "avoid_for": "超高感度CIEM、4.4mmを低インピーダンス出力や真バランスとみなす用途",
+      "review_consensus": "Asgard 3より速く明瞭で、マクロダイナミクス、低域の制動、解像感が向上との傾向。",
+      "review_dissent": "暖かい／乾いたという評価が割れ、4.4mmの高めの出力インピーダンスや高域のざらつき指摘もある。",
+      "confidence": "Medium",
+      "official_urls": [
+        "https://www.schiit.com/products/asgard-x",
+        "https://www.schiit.com/products/mesh-dac-card"
+      ],
+      "review_urls": [
+        "https://www.head-fi.org/threads/schiit-asgard-x-impressions-thread.977154/",
+        "https://www.head-fi.org/showcase/schiit-asgard-x-the-best-asgard-yet.28358/reviews",
+        "https://superbestaudiofriends.org/index.php?threads/schiit-asgard-x-impressions.15230/"
+      ]
+    },
+    {
+      "id": "jotunheim-3",
+      "model": "Jotunheim 3",
+      "status": "Current",
+      "category": "balanced headphone amp / optional DAC",
+      "form_factor": "desktop",
+      "price_usd": {
+        "base": 499,
+        "configured": 649,
+        "notes": "Mesh +$150、銀色+$30"
+      },
+      "architecture": "Prime真バランス。MeshはES9028。",
+      "connectivity": {
+        "digital_inputs": [
+          "USB-C when Mesh installed"
+        ],
+        "analog_inputs": [
+          "XLR",
+          "RCA"
+        ],
+        "headphone_outputs": [
+          "4-pin XLR balanced",
+          "4.4mm balanced",
+          "6.3mm SE"
+        ],
+        "line_outputs": [],
+        "preamp_outputs": [
+          "XLR variable",
+          "RCA variable"
+        ],
+        "microphone": false
+      },
+      "power_output": "balanced: 16Ω 7.5W, 32Ω 6W, 50Ω 4W, 300Ω 1.2W, 600Ω 0.6W; SE: 2.4/2/1.2/0.33/0.165W",
+      "gain": "1x / 6x",
+      "output_impedance_ohm": "<0.8 balanced / <0.4 SE",
+      "snr_db": ">128 balanced / >124 SE",
+      "thd": null,
+      "power_voltage": "内部115V/230V固定",
+      "warranty": "5年",
+      "scores": {
+        "iem": 4,
+        "planar": 5,
+        "high_z": 5,
+        "value": 4
+      },
+      "best_for": "低〜中インピーダンス平面駆動型、真バランス接続、プリアンプ兼用",
+      "avoid_for": "負ゲインが必須な超高感度CIEM、最小構成を求める用途",
+      "review_consensus": "中立、クリーン、高速でダイナミック。平面駆動型への電流余裕とJotunheim 2比のSE・ノイズ改善が好評。",
+      "review_dissent": "バランスや大出力が不要なら上位価格の利得は小さく、発売後の情報量はまだ中程度。",
+      "confidence": "Medium",
+      "official_urls": [
+        "https://www.schiit.com/products/jotunheim-3",
+        "https://www.schiit.com/products/mesh-dac-card"
+      ],
+      "review_urls": [
+        "https://www.head-fi.org/threads/schiit-jotunheim-3-impressions.977967/",
+        "https://superbestaudiofriends.org/index.php?threads/jotunheim-3-impressions.15348/",
+        "https://www.ecoustics.com/products/schiit-jotunheim-3/"
+      ]
+    },
+    {
+      "id": "vali-3",
+      "model": "Vali 3",
+      "status": "Current",
+      "category": "tube-hybrid headphone amp",
+      "form_factor": "compact desktop",
+      "price_usd": {
+        "base": 149,
+        "configured": 149,
+        "notes": "銀色+$10"
+      },
+      "architecture": "6N3P単球ハイブリッド、シングルエンド。",
+      "connectivity": {
+        "digital_inputs": [],
+        "analog_inputs": [
+          "RCA"
+        ],
+        "headphone_outputs": [
+          "6.3mm SE"
+        ],
+        "line_outputs": [],
+        "preamp_outputs": [
+          "RCA variable"
+        ],
+        "microphone": false
+      },
+      "power_output": "32Ω 1.5W; 50Ω 1W; 300Ω 0.4W; 600Ω 0.2W（<10% THD条件）",
+      "gain": "1x / 5x",
+      "output_impedance_ohm": "0.5 low / 1.8 high",
+      "snr_db": "117 low / 105 high",
+      "thd": "出力値は<10% THD条件",
+      "power_voltage": "14–16VAC外部ACアダプター",
+      "warranty": "2年、真空管90日",
+      "scores": {
+        "iem": 3,
+        "planar": 3,
+        "high_z": 4,
+        "value": 5
+      },
+      "best_for": "低予算で真空管の変化や球交換を楽しむ",
+      "avoid_for": "完全無音を求める敏感なCIEM、最大制動を求める低能率平面駆動型",
+      "review_consensus": "真空管機として明瞭、開放的、高速でパンチがあり、ソリッドステート寄りの扱いやすさ。",
+      "review_dissent": "低域の緩さ、密集音源の分離、乾いた高域、球由来のハムという指摘。",
+      "confidence": "High",
+      "official_urls": [
+        "https://www.schiit.com/products/vali3"
+      ],
+      "review_urls": [
+        "https://superbestaudiofriends.org/index.php?threads/schiit-vali-3.14356/",
+        "https://www.head-fi.org/threads/schiit-vali-3-impressions-thread.972014/",
+        "https://www.stereonet.com/reviews/schiit-vali-3-headphone-amplifier-review"
+      ]
+    },
+    {
+      "id": "midgard",
+      "model": "Midgard",
+      "status": "Current",
+      "category": "headphone amp",
+      "form_factor": "desktop",
+      "price_usd": {
+        "base": 219,
+        "configured": 219,
+        "notes": "標準構成"
+      },
+      "architecture": "内部はシングルエンド。XLR入力対応だが、4ピンXLRヘッドホン出力はHaloで真バランスではない。",
+      "connectivity": {
+        "digital_inputs": [],
+        "analog_inputs": [
+          "XLR",
+          "RCA"
+        ],
+        "headphone_outputs": [
+          "6.3mm SE",
+          "4-pin XLR Halo"
+        ],
+        "line_outputs": [],
+        "preamp_outputs": [
+          "XLR variable",
+          "RCA variable"
+        ],
+        "microphone": false
+      },
+      "power_output": "両出力: 16Ω 5.5W; 32Ω 4.8W; 50Ω 3.2W; 300Ω 0.75W; 600Ω 0.375W",
+      "gain": "1x / 5x",
+      "output_impedance_ohm": "<0.1 normal / 約2 Halo",
+      "snr_db": "128 low / 118 high",
+      "thd": null,
+      "power_voltage": "外部ACアダプター",
+      "warranty": "3年",
+      "scores": {
+        "iem": 4,
+        "planar": 5,
+        "high_z": 5,
+        "value": 5
+      },
+      "best_for": "平面駆動型を含む一般ヘッドホン、低価格で大出力、XLR/RCAプリアンプ、Halo比較",
+      "avoid_for": "4ピンXLRを真バランス駆動とする構成",
+      "review_consensus": "測定、出力、価格性能が非常に強く、透明・自然・開放的で奥行きがあるとの傾向。",
+      "review_dissent": "低域が薄い／豊かという評価が矛盾し、Halo差も明確／ほぼ聞こえないと割れる。",
+      "confidence": "High",
+      "official_urls": [
+        "https://www.schiit.com/products/midgard"
+      ],
+      "review_urls": [
+        "https://www.audiosciencereview.com/forum/index.php?threads/schiit-midgard-balanced-headphone-amp-review.48653/",
+        "https://www.ear-fidelity.com/schiit-audio-midgard-review/",
+        "https://superbestaudiofriends.org/index.php?threads/schiit-midgard-review-impressions-measurements-science.13897/",
+        "https://www.head-fi.org/threads/schiit-midgard-impressions-thread.970085/"
+      ]
+    },
+    {
+      "id": "valhalla-3",
+      "model": "Valhalla 3",
+      "status": "Current",
+      "category": "OTL tube headphone amp",
+      "form_factor": "desktop",
+      "price_usd": {
+        "base": 499,
+        "configured": 499,
+        "notes": "銀色+$30"
+      },
+      "architecture": "全段三極管OTL/OCL、シングルエンド。",
+      "connectivity": {
+        "digital_inputs": [],
+        "analog_inputs": [
+          "RCA"
+        ],
+        "headphone_outputs": [
+          "6.3mm SE"
+        ],
+        "line_outputs": [],
+        "preamp_outputs": [
+          "RCA variable"
+        ],
+        "microphone": false
+      },
+      "power_output": "32Ω 0.75W（multiplier使用）; 300Ω 0.25W（multiplierなし）",
+      "gain": "1.25x / 6x / 10x",
+      "output_impedance_ohm": "25 / 40 / 60",
+      "snr_db": "110 low / 95 high",
+      "thd": null,
+      "power_voltage": "内部115V/230V固定",
+      "warranty": "5年、真空管90日",
+      "scores": {
+        "iem": 1,
+        "planar": 2,
+        "high_z": 5,
+        "value": 4
+      },
+      "best_for": "HD600/800系など高インピーダンス動電型、OTLの空間と減衰感",
+      "avoid_for": "CIEM、低インピーダンス多BA、低能率平面駆動型",
+      "review_consensus": "開放的、空気感、自然な減衰、奥行きとライブ感。真空管機として意外にクリーンで中立。",
+      "review_dissent": "HD800で明るく細い、期待ほど濃厚でないとの声。低インピーダンス平面駆動型には不適。",
+      "confidence": "Medium",
+      "official_urls": [
+        "https://www.schiit.com/products/valhalla-3"
+      ],
+      "review_urls": [
+        "https://superbestaudiofriends.org/index.php?threads/schiit-valhalla-3-tube-headphone-amplifier-review.15091/",
+        "https://www.head-fi.org/threads/schiit-valhalla-3-impressions-thread.976031/",
+        "https://forum.hifiguides.com/t/schiit-audio-valhalla-3/45231"
+      ]
+    },
+    {
+      "id": "lyr-5",
+      "model": "Lyr 5",
+      "status": "Current",
+      "category": "tube-hybrid / solid-state headphone amp",
+      "form_factor": "desktop",
+      "price_usd": {
+        "base": 799,
+        "configured": 799,
+        "notes": "銀色+$30。6N8SとForkbeard同梱"
+      },
+      "architecture": "Fusionハイブリッド/SS切替、リレー式ラダー音量、Forkbeard。4.4mmはHaloで真バランスではない。",
+      "connectivity": {
+        "digital_inputs": [],
+        "analog_inputs": [
+          "RCA 1",
+          "RCA 2"
+        ],
+        "headphone_outputs": [
+          "6.3mm SE",
+          "4.4mm Halo"
+        ],
+        "line_outputs": [],
+        "preamp_outputs": [
+          "RCA variable"
+        ],
+        "microphone": false
+      },
+      "power_output": "16Ω 9W; 32Ω 6W; 50Ω 4W; 300Ω 0.9W; 600Ω 0.45W",
+      "gain": "1.2x / 6.5x",
+      "output_impedance_ohm": "0.4 normal / 2 Halo",
+      "snr_db": "low: 114 SS / 110 tube",
+      "thd": null,
+      "power_voltage": "内部115V/230V固定",
+      "warranty": "5年",
+      "scores": {
+        "iem": 3,
+        "planar": 5,
+        "high_z": 5,
+        "value": 4
+      },
+      "best_for": "一台で球とSSを切替、大出力、リモート音量を求める",
+      "avoid_for": "真バランス必須、超高感度CIEMの完全無音を最優先",
+      "review_consensus": "小型で非常に強力かつ多用途。球では奥行きと艶、SSでは低ノイズと締まりを得られるとの初期傾向。",
+      "review_dissent": "球・高ゲインでヒス報告があり、発売直後で長期評価が不足。",
+      "confidence": "Low",
+      "official_urls": [
+        "https://www.schiit.com/products/lyr-5"
+      ],
+      "review_urls": [
+        "https://superbestaudiofriends.org/index.php?threads/schiit-lyr-5-impressions.15573/",
+        "https://www.head-fi.org/threads/schiit-lyr-5-impressions-thread.979306/"
+      ]
+    },
+    {
+      "id": "mjolnir-3",
+      "model": "Mjolnir 3",
+      "status": "Current",
+      "category": "balanced class-A headphone amp",
+      "form_factor": "large desktop",
+      "price_usd": {
+        "base": 1199,
+        "configured": 1199,
+        "notes": "銀色+$100"
+      },
+      "architecture": "真バランスClass A。",
+      "connectivity": {
+        "digital_inputs": [],
+        "analog_inputs": [
+          "XLR",
+          "RCA"
+        ],
+        "headphone_outputs": [
+          "4-pin XLR balanced",
+          "6.3mm SE"
+        ],
+        "line_outputs": [],
+        "preamp_outputs": [
+          "XLR variable",
+          "RCA variable"
+        ],
+        "microphone": false
+      },
+      "power_output": "balanced: 32Ω 2W, 300Ω 1W; SE: 32Ω 1W, 300Ω 0.5W",
+      "gain": "balanced 2x/8x; SE input 1x/4x",
+      "output_impedance_ohm": "<0.25 balanced / <0.13 SE",
+      "snr_db": "110 balanced / 98 SE",
+      "thd": null,
+      "power_voltage": "内部115V/230V固定、消費約50W",
+      "warranty": "5年",
+      "scores": {
+        "iem": 1,
+        "planar": 5,
+        "high_z": 5,
+        "value": 3
+      },
+      "best_for": "中〜高能率平面駆動、高インピーダンス型、Class Aの質感とレイヤリング",
+      "avoid_for": "敏感なIEM、省スペース、省電力、最大数値出力だけを求める用途",
+      "review_consensus": "権威的で滑らか、まとまり、豊かさ、わずかな温かさ、自然な重みと低域の持続が好評。",
+      "review_dissent": "Mjolnir 2よりスラムが弱い、特定機種で柔らかすぎる、最難関平面駆動への評価が割れる。",
+      "confidence": "High",
+      "official_urls": [
+        "https://www.schiit.com/products/mjolnir-3"
+      ],
+      "review_urls": [
+        "https://superbestaudiofriends.org/index.php?threads/schiit-mjolnir-3-impressions.13699/",
+        "https://www.head-fi.org/threads/schiit-mjolnir-3-impressions-thread.969416/",
+        "https://forum.headphones.com/t/schiit-mjolnir-3/22016"
+      ]
+    },
+    {
+      "id": "modi-5",
+      "model": "Modi 5",
+      "status": "Current",
+      "category": "DAC",
+      "form_factor": "compact desktop",
+      "price_usd": {
+        "base": 149,
+        "configured": 161,
+        "notes": "AC wall-wart +$12、銀色+$10"
+      },
+      "architecture": "Mesh ES9018 + OPA1656、Unison USB 384。",
+      "connectivity": {
+        "digital_inputs": [
+          "USB-C 384k",
+          "optical 192k",
+          "coaxial 192k"
+        ],
+        "analog_inputs": [],
+        "headphone_outputs": [],
+        "line_outputs": [
+          "RCA"
+        ],
+        "preamp_outputs": [],
+        "microphone": false
+      },
+      "power_output": "line: USB電源1.5Vrms / AC電源2Vrms",
+      "gain": null,
+      "output_impedance_ohm": "75",
+      "snr_db": "118",
+      "thd": "0.0003%",
+      "power_voltage": "USBまたは12–16VAC",
+      "warranty": "2年",
+      "scores": {
+        "iem": null,
+        "planar": null,
+        "high_z": null,
+        "value": 5
+      },
+      "best_for": "低価格のUSB/光/同軸DAC、Magni等との小型スタック",
+      "avoid_for": "XLR、AES、DSD、リモート、Forkbeardが必要な用途",
+      "review_consensus": "Modi+より滑らかで空間が広く、Mimirより暖かめという初期傾向。価格性能が強い。",
+      "review_dissent": "現行Mesh世代は新しく、機能は上位機より限定。",
+      "confidence": "Medium",
+      "official_urls": [
+        "https://www.schiit.com/products/modi-5"
+      ],
+      "review_urls": [
+        "https://www.head-fi.org/threads/schiit-modi-5-impressions-thread.978894/",
+        "https://superbestaudiofriends.org/index.php?threads/schiit-unity-mesh-dac-card-modi-5-stream-of-consciousness-review.15392/",
+        "https://darko.audio/2025/12/schiits-149-modi-5-199-magni-unity-land-with-mesh/"
+      ]
+    },
+    {
+      "id": "mimir",
+      "model": "Mimir",
+      "status": "Current",
+      "category": "balanced DAC",
+      "form_factor": "desktop",
+      "price_usd": {
+        "base": 299,
+        "configured": 349,
+        "notes": "Forkbeard +$50、銀色+$20"
+      },
+      "architecture": "Mesh ES9028、LME49724 balanced / OPA1656 SE。",
+      "connectivity": {
+        "digital_inputs": [
+          "USB-C 384k",
+          "optical 192k",
+          "coaxial 192k",
+          "AES 192k"
+        ],
+        "analog_inputs": [],
+        "headphone_outputs": [],
+        "line_outputs": [
+          "XLR",
+          "RCA"
+        ],
+        "preamp_outputs": [
+          "digital volume with Forkbeard"
+        ],
+        "microphone": false
+      },
+      "power_output": "line: USB電源3Vrms XLR/1.5Vrms RCA; AC電源4/2Vrms",
+      "gain": null,
+      "output_impedance_ohm": "75",
+      "snr_db": "118",
+      "thd": "0.0003%",
+      "power_voltage": "USBまたは外部AC。Forkbeard時はリモート、3-band PEQ、Loudness、位相、NOS",
+      "warranty": "3年",
+      "scores": {
+        "iem": null,
+        "planar": null,
+        "high_z": null,
+        "value": 5
+      },
+      "best_for": "Jotunheim 3等へのXLR接続、多入力、独立DAC、任意のDSP/リモート",
+      "avoid_for": "R2R/Multibit方式そのものを目的とする場合、DSD必須",
+      "review_consensus": "Meshの広い舞台、細部、明瞭さ、299ドルの価値が好評。",
+      "review_dissent": "初期には薄い・分離しすぎ・冷たい、後には滑らか・暖かいと評価が割れ、FWやシステム相性の可能性。",
+      "confidence": "Medium",
+      "official_urls": [
+        "https://www.schiit.com/products/mimir"
+      ],
+      "review_urls": [
+        "https://superbestaudiofriends.org/index.php?threads/schiit-mimir-mesh-and-forkbeard-dac-preview.15060/",
+        "https://superbestaudiofriends.org/index.php?threads/schiit-mimir-f-2-technical-measurements.15536/",
+        "https://www.head-fi.org/showcase/schiit-mimir-dac.28360/reviews",
+        "https://www.audiosciencereview.com/forum/index.php?threads/anyone-buy-the-new-schiit-mimir-yet.62409/"
+      ]
+    },
+    {
+      "id": "bifrost-2-64",
+      "model": "Bifrost 2/64",
+      "status": "Current",
+      "category": "true multibit balanced DAC",
+      "form_factor": "desktop",
+      "price_usd": {
+        "base": 799,
+        "configured": 799,
+        "notes": "銀色+$30"
+      },
+      "architecture": "TI DAC8812×4 true multibit、SHARC 8x/NOS、ハードウェア・バランス。",
+      "connectivity": {
+        "digital_inputs": [
+          "USB-C 192k",
+          "optical 192k",
+          "coaxial 192k"
+        ],
+        "analog_inputs": [],
+        "headphone_outputs": [],
+        "line_outputs": [
+          "XLR",
+          "RCA"
+        ],
+        "preamp_outputs": [],
+        "microphone": false
+      },
+      "power_output": "line: 4Vrms XLR / 2Vrms RCA",
+      "gain": null,
+      "output_impedance_ohm": "75",
+      "snr_db": "124",
+      "thd": "<0.0008%",
+      "power_voltage": "内部115V/230V固定",
+      "warranty": "5年",
+      "scores": {
+        "iem": null,
+        "planar": null,
+        "high_z": null,
+        "value": 3
+      },
+      "best_for": "Multibitの設計思想、NOS切替、Jotunheim等との本格スタック",
+      "avoid_for": "音量リモート、AES、DSD、最優先の価格性能",
+      "review_consensus": "旧Bifrost 2は暖かさ、厚み、スラム、有機性。2/64はより明瞭、中立、解像、奥行きという傾向。",
+      "review_dissent": "2/64を薄い、明るい、粒状とする声があり、比較では差が小さく嗜好も分かれる。",
+      "confidence": "High",
+      "official_urls": [
+        "https://www.schiit.com/products/bifrost"
+      ],
+      "review_urls": [
+        "https://audio-head.com/schiit-bifrost-2-vs-bifrost-2-64-a-schiit-shootout/",
+        "https://hear.audio/2024/12/28/schiit-audio-bifrost-2-64-review/",
+        "https://www.audiosciencereview.com/forum/index.php?threads/bifrost-2-64.45857/",
+        "https://www.head-fi.org/showcase/schiit-audio-bifrost-2.24927/reviews"
+      ]
+    },
+    {
+      "id": "gungnir-2",
+      "model": "Gungnir 2",
+      "status": "Current",
+      "category": "balanced multiform DAC",
+      "form_factor": "large desktop",
+      "price_usd": {
+        "base": 1599,
+        "configured": 1599,
+        "notes": "表示価格はForkbeard込み。なしは-$50、銀色+$50"
+      },
+      "architecture": "TI DAC8812C×4 Multiform、SHARC/NOS、AD4898。",
+      "connectivity": {
+        "digital_inputs": [
+          "AES",
+          "coaxial",
+          "optical",
+          "Unison USB 384k",
+          "Unison USB 192k"
+        ],
+        "analog_inputs": [],
+        "headphone_outputs": [],
+        "line_outputs": [
+          "XLR",
+          "RCA"
+        ],
+        "preamp_outputs": [
+          "digital volume with Forkbeard"
+        ],
+        "microphone": false
+      },
+      "power_output": "line: 4Vrms XLR / 2Vrms RCA",
+      "gain": null,
+      "output_impedance_ohm": "75",
+      "snr_db": "112",
+      "thd": "<0.0008%",
+      "power_voltage": "内部115V/230V固定。Forkbeardは5-band PEQ/プリアンプ、IRリモート",
+      "warranty": "5年",
+      "scores": {
+        "iem": null,
+        "planar": null,
+        "high_z": null,
+        "value": 3
+      },
+      "best_for": "多入力、PEQ/プリアンプ、Multiform、上位バランスシステム",
+      "avoid_for": "DSD、低予算、省スペース",
+      "review_consensus": "旧Gungnir Multibitより詳細、鮮明な定位、中立・透明。舞台、音色、質感、Bifrost以上のニュアンスが好評。",
+      "review_dissent": "価格とDSD非対応が難点で、YggdrasilやBifrostの味付けを好む意見もある。",
+      "confidence": "Medium",
+      "official_urls": [
+        "https://www.schiit.com/products/gungnir-2"
+      ],
+      "review_urls": [
+        "https://superbestaudiofriends.org/index.php?threads/schiit-gungnir-2-impressions-comparo.14741/",
+        "https://www.head-fi.org/showcase/schiit-audio-gungnir-2.27785/reviews",
+        "https://hifiaudio.guru/2025/07/07/schiit-audio-gungnir-2-balanced-multiform-dac-balanced-perfection/",
+        "https://audio-head.com/review-schiit-kara-f-pre-gungnir-2-dac-the-rest-of-the-gigastack/"
+      ]
+    },
+    {
+      "id": "yggdrasil",
+      "model": "Yggdrasil",
+      "status": "Current",
+      "category": "flagship balanced DAC",
+      "form_factor": "large desktop",
+      "price_usd": {
+        "base": 2299,
+        "configured": 3499,
+        "notes": "LIM $2299黒/$2399銀。Singular $3499黒/$3599銀"
+      },
+      "architecture": "現行2種: LIMはTI DAC8812×4 true multibit。SingularはXilinx FPGA独自7-bit/6MHz delta-sigma + discrete ladder/Nexus Class A。",
+      "connectivity": {
+        "digital_inputs": [
+          "LIM: USB/AES/coax/BNC/optical 192k",
+          "Singular: 2×USB 384k + S/PDIF"
+        ],
+        "analog_inputs": [],
+        "headphone_outputs": [],
+        "line_outputs": [
+          "XLR×1",
+          "RCA×2"
+        ],
+        "preamp_outputs": [
+          "Singular: Forkbeard"
+        ],
+        "microphone": false
+      },
+      "power_output": "line: 4Vrms XLR / 2Vrms RCA",
+      "gain": null,
+      "output_impedance_ohm": "75",
+      "snr_db": "LIM 110 / Singular 108",
+      "thd": "LIM <0.002% / Singular 0.0008%",
+      "power_voltage": "内部115V/230V固定、約45W、約25lb",
+      "warranty": "5年",
+      "scores": {
+        "iem": null,
+        "planar": null,
+        "high_z": null,
+        "value": 2
+      },
+      "best_for": "価格より設計思想、筐体、上位システム統合を優先。LIMは滑らかさ、Singularは新方式とForkbeard。",
+      "avoid_for": "費用対効果、DSD、省スペース、DAC差を確実な改善として買う用途",
+      "review_consensus": "LIMは滑らか、暖かい、中域前進、深く締まる低域。Singularは広大、ダイナミック、締まる低域、微細情報と定位という初期傾向。",
+      "review_dissent": "LIMは柔らかくロールオフし細部が弱いとの声。Singularは高価かつ新しく、SNR数値は聴感優劣を示さない。",
+      "confidence": "LIM High / Singular Low",
+      "official_urls": [
+        "https://www.schiit.com/products/yggdrasil"
+      ],
+      "review_urls": [
+        "https://audiophilestyle.com/ca/reviews/review-schiit-yggdrasil-lim-vs-mib-with-byggy-on-the-horizon-r1370/",
+        "https://audiophilestyle.com/ca/reviews/yggdrasil-singular-my-favorite-schiit-audio-dac-to-date-r1400/",
+        "https://audiophilestyle.com/ca/reviews/schiit-audio-yggdrasil-less-is-more-review-r1049/",
+        "https://audio-head.com/review-schiit-yggdrasil-og-vs-less-is-more-vs-more-is-less/"
+      ]
+    },
+    {
+      "id": "fulla-e",
+      "model": "Fulla E",
+      "status": "Current",
+      "category": "DAC/amp",
+      "form_factor": "compact gaming desktop",
+      "price_usd": {
+        "base": 109,
+        "configured": 109,
+        "notes": "標準構成"
+      },
+      "architecture": "ES9018、OPA1654/1656、CM6635、PCM1808 mic。",
+      "connectivity": {
+        "digital_inputs": [
+          "USB-C data/power",
+          "optical"
+        ],
+        "analog_inputs": [],
+        "headphone_outputs": [
+          "6.3mm SE"
+        ],
+        "line_outputs": [],
+        "preamp_outputs": [
+          "3.5mm variable"
+        ],
+        "microphone": true
+      },
+      "power_output": "16Ω 0.3W; 32Ω 0.2W; 50Ω 0.15W; 300Ω 0.04W",
+      "gain": "固定",
+      "output_impedance_ohm": "0.5",
+      "snr_db": "108",
+      "thd": null,
+      "power_voltage": "USB。追加USB給電端子あり",
+      "warranty": "2年",
+      "scores": {
+        "iem": 3,
+        "planar": 2,
+        "high_z": 2,
+        "value": 4
+      },
+      "best_for": "PC、光入力、ヘッドセットマイク、簡単な一体型",
+      "avoid_for": "低能率平面駆動、高出力、アナログライン入力、ゲイン切替",
+      "review_consensus": "甘さと下部中域の温かさ、明瞭さ、ゲーム/会議の利便性が好評。",
+      "review_dissent": "約90dB SINADや遅いフィルターを競合より弱いとする測定評価、ゲイン・マイク音量ノブなし。",
+      "confidence": "High",
+      "official_urls": [
+        "https://www.schiit.com/products/fulla-2"
+      ],
+      "review_urls": [
+        "https://www.audiosciencereview.com/forum/index.php?threads/schiit-fulla-e-dac-amp-review.40061/",
+        "https://superbestaudiofriends.org/index.php?threads/fulla-e-impressions-thread.11643/",
+        "https://avgadgets.com/a-headphone-amp-thats-fulla-schiit/"
+      ]
+    },
+    {
+      "id": "gunnr",
+      "model": "Gunnr",
+      "status": "Current",
+      "category": "gaming DAC/amp",
+      "form_factor": "desktop",
+      "price_usd": {
+        "base": 229,
+        "configured": 229,
+        "notes": "AC込み。ACなし-$15で$214"
+      },
+      "architecture": "ES9018系DAC/アナログアンプ、幅・プレゼンス調整。",
+      "connectivity": {
+        "digital_inputs": [
+          "USB-C",
+          "optical"
+        ],
+        "analog_inputs": [],
+        "headphone_outputs": [
+          "6.3mm SE"
+        ],
+        "line_outputs": [],
+        "preamp_outputs": [
+          "3.5mm variable"
+        ],
+        "microphone": true
+      },
+      "power_output": "16Ω 2W; 32Ω 1.5W; 50Ω 0.8W; 300Ω 0.2W。USB単独は最大-10dB",
+      "gain": "negative/low/high: 最大0.67/2/8.5Vrms",
+      "output_impedance_ohm": "0.25",
+      "snr_db": "114",
+      "thd": null,
+      "power_voltage": "16VACまたはUSB",
+      "warranty": "3年 + 1年rapid exchange",
+      "scores": {
+        "iem": 5,
+        "planar": 4,
+        "high_z": 3,
+        "value": 4
+      },
+      "best_for": "CIEM、PCゲーム、マイク、音場・プレゼンス調整、一般ヘッドホン",
+      "avoid_for": "純粋なビットパーフェクト固定経路だけを求める、Xbox USB接続",
+      "review_consensus": "穏やかだが十分オーディオ的で、幅/プレゼンス操作がゲームと音楽に有用。負ゲインがIEMに強い。",
+      "review_dissent": "操作は信号を変え、USB単独は出力低下。XboxのUSBオーディオには非対応との注意。",
+      "confidence": "Medium",
+      "official_urls": [
+        "https://www.schiit.com/products/gunnr"
+      ],
+      "review_urls": [
+        "https://superbestaudiofriends.org/index.php?threads/schiit-gunnr-review-sort-of.14712/",
+        "https://www.head-fi.org/threads/schiit-gunnr-is-in-the-house.974415/",
+        "https://www.ecoustics.com/products/schiit-gunnr/"
+      ]
+    },
+    {
+      "id": "lyr-plus-last-call",
+      "model": "Lyr+ Last Call",
+      "status": "Last Call",
+      "category": "tube-hybrid / solid-state headphone amp",
+      "form_factor": "desktop",
+      "price_usd": {
+        "base": 449,
+        "configured": 499,
+        "notes": "真空管なし$449、premium 6SN7 +$50、銀色+$30"
+      },
+      "architecture": "ハイブリッド/SS切替、リレー式音量、シングルエンド。終売移行在庫。",
+      "connectivity": {
+        "digital_inputs": [],
+        "analog_inputs": [
+          "RCA"
+        ],
+        "headphone_outputs": [
+          "6.3mm SE"
+        ],
+        "line_outputs": [],
+        "preamp_outputs": [
+          "RCA variable"
+        ],
+        "microphone": false
+      },
+      "power_output": "16Ω 9W; 32Ω 6W; 50Ω 4W; 300Ω 0.9W; 600Ω 0.45W",
+      "gain": "1.2x / 5.7x",
+      "output_impedance_ohm": "0.4",
+      "snr_db": "low: 115 SS / 111 tube",
+      "thd": null,
+      "power_voltage": "内部115V/230V固定",
+      "warranty": "5年",
+      "scores": {
+        "iem": 2,
+        "planar": 5,
+        "high_z": 4,
+        "value": 5
+      },
+      "best_for": "在庫限り価格で大出力と6SN7/SS切替を得たい人",
+      "avoid_for": "長期の現行プラットフォーム、敏感なCIEM、後継Lyr 5のForkbeard/Haloが必要",
+      "review_consensus": "低域の質感、厚い中域、滑らかな高域、立体感と大出力が支持された。",
+      "review_dissent": "球とSS差が小さいとの声、初期個体の故障・修理報告があり、現在はLast Call。",
+      "confidence": "High",
+      "official_urls": [
+        "https://www.schiit.com/products/lyr"
+      ],
+      "review_urls": [
+        "https://ichos-reviews.com/schiit-lyr-review/",
+        "https://superbestaudiofriends.org/index.php?threads/schiit-lyr-review-or-random-thoughts-about-it.12754/",
+        "https://www.reddit.com/r/Schiit/comments/1clnp6x/lyr_owners_your_personal_experiences/"
+      ]
+    }
+  ],
+  "legacy_warnings": [
+    {
+      "topic": "世代名",
+      "warning": "Asgard 3、Jotunheim 2、Vali 2、Valhalla 2、Lyr 3/Lyr+、旧Fulla、旧Modiのレビューを現行機へ直接適用しない。"
+    },
+    {
+      "topic": "Bifrost",
+      "warning": "Bifrost 2と現行Bifrost 2/64はDACカードとレビュー傾向が異なる。"
+    },
+    {
+      "topic": "Gungnir",
+      "warning": "旧Gungnir/Gungnir Multibit（Gumby）とGungnir 2は別製品。"
+    },
+    {
+      "topic": "Yggdrasil",
+      "warning": "More Is Better（MIB）やOGはページ内で言及されても現行注文セレクターでは選べない。現行はLIMとSingular。"
+    },
+    {
+      "topic": "Mesh",
+      "warning": "Magni Unity、Asgard X、Jotunheim 3の旧DACカード評価と現行Mesh評価を混同しない。Magni用現行カードのチップ型番は公式記載を優先し、推測しない。"
+    },
+    {
+      "topic": "balanced表記",
+      "warning": "Midgardの4ピンXLR、Asgard X/Lyr 5の4.4mmはHaloであり真バランスではない。端子形状だけで回路方式を判断しない。"
+    },
+    {
+      "topic": "価格",
+      "warning": "価格は2026-07-18時点の米国公式表示、税・送料・関税・昇圧対策を含まない。"
+    }
+  ],
+  "catalog_url": "https://www.schiit.com/products"
+}
